@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-CustomSlider-GG/static/css/main.c01c190a.css",
+    "main.js": "/React-CustomSlider-GG/static/js/main.819dc99a.js",
+    "static/js/787.5f4623a5.chunk.js": "/React-CustomSlider-GG/static/js/787.5f4623a5.chunk.js",
+    "index.html": "/React-CustomSlider-GG/index.html",
+    "main.c01c190a.css.map": "/React-CustomSlider-GG/static/css/main.c01c190a.css.map",
+    "main.819dc99a.js.map": "/React-CustomSlider-GG/static/js/main.819dc99a.js.map",
+    "787.5f4623a5.chunk.js.map": "/React-CustomSlider-GG/static/js/787.5f4623a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c01c190a.css",
+    "static/js/main.819dc99a.js"
+  ]
+}
