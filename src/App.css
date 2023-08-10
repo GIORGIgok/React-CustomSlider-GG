@@ -1,0 +1,64 @@
+/* custom slider styles */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.custom-slider {
+	max-height: 400px;
+	max-width: 400px;
+	position: relative;
+}
+
+figure {
+	max-width: 480px;
+	max-height: 480px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.right-arrow,
+.left-arrow {
+	position: absolute;
+	top: 49%;
+	transform: translateY(-50%);
+	font-size: 4.3rem;
+	color: #e6e6e6;
+	text-shadow: #FFF 0px 0px 3px, #4a1f72 0px 0px 7px, #FFF 0px 0px 12px, #8f2dff 0px 0px 20px, #8f2dff 0px 0px 30px, #2d76ff 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.right-arrow {
+	right: 0;
+}
+
+.left-arrow {
+	left: 0;
+}
+
+.slide {
+	opacity: 0;
+	transition-duration: 1s ease;
+}
+
+.slide.active {
+	opacity: 1;
+	transition-duration: 1s;
+	transform: scale(1.08);
+}
